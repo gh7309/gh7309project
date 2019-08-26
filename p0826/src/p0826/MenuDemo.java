@@ -42,7 +42,7 @@ public class MenuDemo extends JFrame implements ActionListener {
 		item.setAccelerator(key);
 		item.addActionListener(this);
 		m2.add(item);
-		item = new JMenuItem("빨간색 ");
+		item = new JMenuItem("빨간색");
 		key = KeyStroke.getKeyStroke(KeyEvent.VK_R, ActionEvent.CTRL_MASK);
 		item.setAccelerator(key);
 		item.addActionListener(this);
